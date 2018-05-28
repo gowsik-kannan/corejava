@@ -1,3 +1,4 @@
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.DEFAULT;
 
 public class Demo {
 	public static void main(String s[]) {
@@ -29,7 +30,29 @@ public class Demo {
 		System.out.println(contact >= 10);
 		System.out.println(a & b);
 		System.out.println(a | b);
+		if(contact%2==0)
+			System.out.println("even");
+		else
+			System.out.print("odd");
+	int response =	contact > 18 ? 20 : 15;
+	
+	int age=18;
+	switch(age) {
+	case 10:
+		System.out.println("child");
+		break;
+	case 18:
+		System.out.println("Adult");
+		break;
+	case 70:
+		System.out.println("old");
+		break;
+	 default:
+		 System.out.println("default");
+		 break;
 		
 	}
 
+	 
+	}
 }
