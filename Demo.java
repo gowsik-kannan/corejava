@@ -1,5 +1,5 @@
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.DEFAULT;
-
+@SuppressWarnings("unused")
 public class Demo {
 	public static void main(String s[]) {
 		System.out.println("helloworld");
@@ -50,9 +50,19 @@ public class Demo {
 	 default:
 		 System.out.println("default");
 		 break;
+	}
+		 int i= 11;
+		 System.out.println("teen ages");
+		 while(i < 20)
+		 {
+			
+			 //System.out.println("teen ages");
+			 System.out.println("age=" +i);
+			 i++;
+		 }
 		
+	
 	}
 
 	 
 	}
-}
