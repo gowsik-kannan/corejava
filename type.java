@@ -1,4 +1,4 @@
-public class Hello {
+public class Type {
 	public static void main(String s[]) {
 		
 		byte a=10;
