@@ -1,0 +1,10 @@
+
+public class Condition {
+	public static void main(String s[]) {
+		
+	int contact=25;
+		int response =	contact > 18 ? 20 : 15;
+		
+		System.out.println(response);
+	}
+}
